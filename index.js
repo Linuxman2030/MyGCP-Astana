@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction of Astana!</font><br><b>App Version 3</b>";
+  const message="<font color='blue'>СloudFunction of Astana fo the Kairat!</font><br><b>App Version 3</b>";
   res.status(200).send(message);
 };
